@@ -1,0 +1,13 @@
+
+$color-1: rgba(38, 39, 50, 0.85);
+$color-2: #ffffff;
+
+$font-1: 'Poppins', sans-serif;
+$font-2: 'Libre Baskerville', serif;
+$font-3: 'Sacramento', cursive;
+
+html body {
+  font-size: 16px;
+}
+
+@import "main-screen";
