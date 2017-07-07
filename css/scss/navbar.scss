@@ -1,0 +1,15 @@
+.navbar-main {
+  border-radius: 0;
+  border: none;
+  margin-bottom: 0;
+  text-align: center;
+  min-height: 85px;
+  .navbar-header {min-height: 85px;}
+}
+
+@media (min-width: 768px){
+  .navbar-right {margin-top:15px;height: 85px;}
+}
+@media (max-width: 321px){
+  .navbar-default .navbar-brand {width:70%}
+}

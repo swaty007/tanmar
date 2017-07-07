@@ -1,53 +1,14 @@
 html body .main-screen {
-  background: url("/first-project/img/main-screen.jpg"), 50% 50%;
+  background: url("/img/layer_1.png"), 50% 50%;
   background-size: cover;
-  height: 100%;
-
-  .content-block {
-    text-align: center;
-    .main-slick {
-      margin-top:100px;
-      text-transform: uppercase;
-      .dollar-color {
-        color: $color-4;
-        margin-top:20px;
-      }
-      .time-color {
-        color: $color-5;
-        margin-top:20px;
-      }
-      .ok-color {
-        color: $color-6;
-        margin-top:20px;
-      }
-    }
-
-
-    .header-text {
-      color: $color-2;
-      font-family: $font-2;
-      font-size: 3.75em;
-      font-weight: 400;
-      line-height: 85px;
-      margin-top: 15vh;
-    }
-
-    .btn-main {
-      margin-top:50px;
-      width: 180px;
-      height: 50px;
-      border-radius: 25px;
-      background-color: $color-3;
-      outline: none;
-      color: $color-2;
-      text-transform: uppercase;
-      font-family: $font-1;
-      font-size: 1em;
-      font-weight: 600;
-      border:none;
-    }
-  }
+  height: 80vh;
 }
+
+
+
 @media  (min-width: 990px) {
-  html body .main-screen {height: calc(100vh - 70px);}
+  html body .main-screen {
+    height: calc(100vh - 85px);
+    //background-size: contain;
+  }
 }

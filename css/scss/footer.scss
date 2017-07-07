@@ -1,0 +1,16 @@
+.footer {
+  background-color: #ececec;
+  .footer-column {
+    &.map {
+      height: 230px;
+    }
+    >img {width:100%}
+  }
+}
+
+
+
+@media  (min-width: 990px) {
+  .footer .footer-column {
+    min-height: 230px;}
+}

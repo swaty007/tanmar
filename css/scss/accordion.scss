@@ -1,0 +1,102 @@
+.accordion {
+  .accordion-item {
+    min-height: 97px;
+    &.active {
+      .hide-text {
+        max-height:57vh;
+        padding: 10px 15px;
+      }
+    }
+    .hide-text {
+      overflow:auto;
+      max-height: 0;
+      //transition: max-height 350ms ease-in-out;
+      text-align: left;
+      background-color: $color-1;
+      opacity: 0.8;
+      color: #ffffff;
+      .foto-conrainer {
+        text-align: center;
+        img{
+          margin:10px 0;
+          &:last-child{margin-left:10px;}}
+      }
+    }
+    .accordion-button {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .accordion-block {
+      position: relative;
+      font-size: 16px;
+      background-color: $color-1;
+      border-top: 1px solid #cbcbcb;
+      border-bottom: 1px solid #cbcbcb;
+      margin: 0;
+      min-height: 97px;
+      .accordion-market {
+        width: 50px;
+        height: 52px;
+        position: absolute;
+        padding: 0;
+        top: 23px;
+        right: 7px;
+        outline: 0;
+
+        -o-transition: transform 0.6s linear;
+        -ms-transition: transform 0.6s linear;
+        -moz-transition: transform 0.6s linear;
+        -webkit-transition: transform 0.6s linear;
+        transition: transform 0.6s linear;
+        &:hover{background-color:#3caad2}
+        &.fa {
+          background: url("/img/shape.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          &.fa-angle-up{
+            -o-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); //анимация переворота
+          }
+        }
+      }
+      .show-text {
+        font-family: $font-1;
+        font-weight: 700;
+        position: relative;
+        color: #ffffff;
+        line-height: 30px;
+        text-align: left;
+        display: inline-block;
+        margin-bottom: 0;
+        margin-top: 28px;
+        margin-left: 30px;
+        max-width: 90%;
+      }
+    }
+    //&:last-child{border-bottom:1px solid #cbcbcb}
+  }
+}
+@media  (min-width: 990px) {
+  html body .accordion {
+    width: 35%;
+    height: 97px;
+    position:absolute;
+    top:20vh;
+    left:15%;}
+  .accordion .accordion-item .accordion-block .show-text {
+    font-size: 34px;
+  }
+  .accordion .accordion-item .accordion-block .accordion-market {
+    width: 60px;
+    height: 62px;
+    position: absolute;
+    padding: 0;
+    top: 14px;
+    right: 14px;
+    outline: 0;
+  }
+}

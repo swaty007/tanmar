@@ -1,0 +1,75 @@
+.image-slide {
+  position: relative;
+  .btn-download-sea {
+    position: absolute;
+    margin-top:20vh;
+    width: 100%;
+    height: 10%;
+    z-index: 10;
+    opacity: 0.8;
+    font-size: 150%;
+    font-weight: 700;
+    &:hover {
+      background-color: $color-1;
+    }
+  }
+
+//carousel
+  h3 {
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-indicators {
+    bottom: 120px;
+    width:60%;
+    margin:0;
+    left:40%;
+    li {
+      border-radius: 0px;
+      width: 27px;
+      height: 25px;
+      background-color: #ececec;
+    }
+    .active {
+      background-color: $color-1;
+      width: 27px;
+      height: 25px;
+    }
+  }
+  //carousel finish
+}
+@media  (min-width: 990px) {
+  html body .image-slide {height: 100vh;}
+  .image-slide .btn-download-sea {
+    margin-top:20vh;
+    margin-left:15%;
+    width: 40%;
+  }
+  .image-slide .carousel-indicators {
+    bottom: 85px;
+    width:30%;
+    margin:0;
+    left:60%;
+    li {
+      border-radius: 0px;
+      width: 33px;
+      height: 30px;
+      background-color: #ececec;
+    }
+    .active {
+      background-color: $color-1;
+      width: 33px;
+      height: 30px;
+    }
+  }
+}
