@@ -6,12 +6,12 @@ html body{font-size:16px}
 }
 @media (max-width:321px){.navbar-default .navbar-brand{width:70%}
 }
-html body .main-screen{background:url(/img/layer_1.png),50% 50%;background-size:cover;height:80vh}
+html body .main-screen{background:url(../img/layer_1.png),50% 50%;background-size:cover;height:80vh}
 @media (min-width:990px){html body .main-screen{height:calc(100vh - 85px)}
 html body .shipowner{height:100vh}
 html body .shipowner .accordion>h2{font-size:60px}
 }
-html body .shipowner{background:url(/img/layer_2.png),50% 50%;background-size:cover;height:100vh}
+html body .shipowner{background:url(../img/layer_2.png),50% 50%;background-size:cover;height:100vh}
 html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT Lakes Condensed";font-weight:700;padding:20px 0;margin:0}
 .image-slide .btn-download-sea{position:absolute;margin-top:20vh;width:100%;height:10%;z-index:10;opacity:.8;font-size:150%;font-weight:700}
 .image-slide .btn-download-sea:hover{background-color:#036}
