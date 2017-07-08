@@ -13,13 +13,13 @@ html body{font-size:16px}
 }
 @media (max-width:321px){.navbar-default .navbar-brand{width:70%}
 }
-html body .main-screen{background:url(/img/layer_1.png),50% 50%;background-size:cover;height:80vh}
+html body .main-screen{background:url(../img/layer_1.png),50% 50%;background-size:cover;height:80vh}
 @media (min-width:990px){html body .main-screen{height:calc(100vh - 85px)}
 html body .shipowner{height:100vh}
 html body .shipowner .accordion>h2{font-size:60px}
 html body .shipowner .accordion{top:10vh}
 }
-html body .shipowner{background:url(/img/layer_2.png),50% 50%;background-size:cover;height:100vh}
+html body .shipowner{background:url(../img/layer_2.png),50% 50%;background-size:cover;height:100vh}
 html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT Lakes Condensed";font-weight:700;padding:20px 0;margin:0}
 .image-slide .btn-download-sea{position:absolute;margin-top:20vh;width:100%;height:10%;z-index:10;opacity:.8;font-size:150%;font-weight:700;outline:0;font-family:"TT Lakes Condensed"}
 .image-slide .btn-download-sea:hover{background-color:#036}
@@ -47,9 +47,9 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 .accordion .accordion-item .hide-text .foto-conrainer img{margin:10px 0;width:100%}
 .accordion .accordion-item .accordion-button:hover{cursor:pointer}
 .accordion .accordion-item .accordion-block{position:relative;font-size:16px;background-color:#036;margin:0;min-height:80px;box-shadow:inset 0 0 20px 3px #091f50}
-.accordion .accordion-item .accordion-block .accordion-market{width:50px;height:52px;position:absolute;padding:0;top:13px;right:7px;outline:0;-o-transition:transform .6s linear;-ms-transition:transform .6s linear;-moz-transition:transform .6s linear;-webkit-transition:transform .6s linear;transition:transform .6s linear}
+.accordion .accordion-item .accordion-block .accordion-market{width:50px;height:52px;position:absolute;padding:0;top:13px;right:7px;outline:0;-o-transition:transform .6s linear;-ms-transition:transform .3s linear;-moz-transition:transform .3s linear;-webkit-transition:transform .3s linear;transition:transform .3s linear}
 .accordion .accordion-item .accordion-block .accordion-market:hover{background-color:#3caad2}
-.accordion .accordion-item .accordion-block .accordion-market.fa{background:url(/img/shape.png) no-repeat;background-size:contain}
+.accordion .accordion-item .accordion-block .accordion-market.fa{background:url(../img/shape.png) no-repeat;background-size:contain}
 .accordion .accordion-item .accordion-block .accordion-market.fa.fa-angle-up{-o-transform:rotate(90deg);-ms-transform:rotate(90deg);-moz-transform:rotate(90deg);-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .accordion .accordion-item .accordion-block .show-text{font-family:"TT Lakes Condensed";font-weight:700;position:relative;color:#fff;line-height:30px;text-align:left;display:inline-block;margin-bottom:0;margin-top:25px;margin-left:12px;max-width:80%;font-size:25px}
 @media (min-width:990px){html body .accordion{width:35%;height:80px;position:absolute;top:20vh;left:15%}
