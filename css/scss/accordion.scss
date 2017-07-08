@@ -1,6 +1,6 @@
 .accordion {
   .accordion-item {
-    min-height: 97px;
+    min-height: 80px;
     &.active {
       .hide-text {
         max-height:57vh;
@@ -13,13 +13,21 @@
       //transition: max-height 350ms ease-in-out;
       text-align: left;
       background-color: $color-1;
+      font-family: $font-2;
+      font-size:20px;
       opacity: 0.8;
       color: #ffffff;
       .foto-conrainer {
+        >div {
+          width:50%;
+          float:left;
+          &:last-child img{margin-left:10px;}}
         text-align: center;
         img{
           margin:10px 0;
-          &:last-child{margin-left:10px;}}
+          width:100%;
+          //height: 300px;
+          }
       }
     }
     .accordion-button {
@@ -31,10 +39,11 @@
       position: relative;
       font-size: 16px;
       background-color: $color-1;
-      border-top: 1px solid #cbcbcb;
-      border-bottom: 1px solid #cbcbcb;
+      //border-top: 1px solid #cbcbcb;
+      //border-bottom: 1px solid #cbcbcb;
       margin: 0;
-      min-height: 97px;
+      min-height: 80px;
+      box-shadow: inset 0 0 20px 3px #091f50;
       .accordion-market {
         width: 50px;
         height: 52px;
@@ -72,9 +81,10 @@
         text-align: left;
         display: inline-block;
         margin-bottom: 0;
-        margin-top: 28px;
-        margin-left: 30px;
-        max-width: 90%;
+        margin-top: 25px;
+        margin-left: 12px;
+        max-width: 80%;
+        font-size:25px;
       }
     }
     //&:last-child{border-bottom:1px solid #cbcbcb}
@@ -83,12 +93,14 @@
 @media  (min-width: 990px) {
   html body .accordion {
     width: 35%;
-    height: 97px;
+    height: 80px;
     position:absolute;
     top:20vh;
     left:15%;}
   .accordion .accordion-item .accordion-block .show-text {
     font-size: 34px;
+    margin-left: 30px;
+    max-width: 90%;
   }
   .accordion .accordion-item .accordion-block .accordion-market {
     width: 60px;

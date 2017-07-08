@@ -1,7 +1,18 @@
+@font-face{
+  font-family:'TT Lakes Condensed';
+  src:url(../fonts/TT_Lakes/TTLakesCompressed-Black.otf);
+}
+@font-face{
+  font-family:'Akrobat';
+  src:url(../fonts/akrobat/Akrobat-ExtraLight.otf);
+}
+
+
 
 $color-1: #003366;
 
 $font-1: 'TT Lakes Condensed';
+$font-2: 'Akrobat';
 
 
 html body {

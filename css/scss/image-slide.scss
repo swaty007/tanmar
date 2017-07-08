@@ -9,6 +9,8 @@
     opacity: 0.8;
     font-size: 150%;
     font-weight: 700;
+    outline: none;
+    font-family: $font-1;
     &:hover {
       background-color: $color-1;
     }
@@ -31,9 +33,9 @@
 
   .carousel-indicators {
     bottom: 120px;
-    width:60%;
+    width:70%;
     margin:0;
-    left:40%;
+    left:30%;
     li {
       border-radius: 0px;
       width: 27px;
