@@ -4,7 +4,27 @@
   margin-bottom: 0;
   text-align: center;
   min-height: 85px;
-  .navbar-header {min-height: 85px;}
+  font-family: $font-2;
+  font-size: 22px;
+  .navbar-header {min-height: 85px;
+  a {outline: none;}}
+  .nav-links{text-transform: uppercase;}
+  .change-lang {
+    &.eng {
+      position: absolute;
+      bottom: -5px;
+      left: 1px;
+    }
+    &.uk {
+      position: absolute;
+      top: -5px;
+      left: 22px;
+    }
+    &.active {
+      z-index:10;
+      border: 3px solid $color-1;
+    }
+  }
 }
 
 @media (min-width: 768px){
