@@ -58,8 +58,9 @@
 @media  (min-width: 990px) {
   html body .image-slide {height: 100vh;}
   .image-slide .btn-download-sea {
-    margin-top:20vh;
+    margin-top:10vh;
     width: 40%;
+    min-width: 500px;
   }
   .image-slide .carousel-indicators {
     bottom: 85px;
