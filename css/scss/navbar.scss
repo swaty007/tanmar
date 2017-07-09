@@ -1,22 +1,54 @@
-@media (max-width: 990px){
+@media (max-width: 992px){
+  .navbar-main-1 {height:80px;}
+  .change-lang.active {
+    border:4px solid $color-1;
+  }
+  .main-screen .accordion {padding-top:10px;}
+  .nav-background {
+    .navbar-header-2 {
+      transition-property:right;
+      transition-duration:1s;
+      position: fixed;
+      right:100px;
+      &.toggled-on {
+        right:335px;
+      }
+      margin-right: 0;
+      margin-left: 20px;
+      margin-top: 20px;
+      height: 80px;
+      a {outline: none;}
+      .navbar-logo {
+        height: 50px;
+        color: #777;
+        img{width:120px;}
+      }
+    }
+    position: fixed;
+    top:0;
+    display:block;
+    width:100%;
+    background-color: #f8f8f8;
+    height: 80px;
+    z-index: 99;
+  }
   .menu-btn {
+    z-index: 100;
     /*position: absolute;*/
     position:fixed;
-    right:40px;
-    top: calc( 1.714285714rem +  3.428571429rem + 5px);
+    right:10px;
+    top: 10px;
     border-radius: 0;
     border: 2px solid #c0c0c0;
-    background-color: $color-2;
+    background-color: $color-3;
     text-align: center;
     //box-shadow: 1px 3px 1px 0 rgba(0,0,0,.2);
-    width: 40px;
-    height: 40px;
+    width: 58px;
+    height: 58px;
     padding: 7px;
     cursor: pointer;
     outline: 0;
     /*float: right;*/
-    margin-top: 20px;
-    margin-bottom: 20px;
     transition-property:right;
     transition-duration:1s;
     z-index: 999;
@@ -34,7 +66,7 @@
     margin-bottom: 7px;
   }
   .menu-btn.toggled-on {
-    right:340px;
+    right:245px;
     //-webkit-transform: translate3d(-300px,0,0);
     //-moz-transform: translate3d(-300px,0,0);
     //-ms-transform: translate3d(-300px,0,0);
@@ -47,7 +79,7 @@
     right:-30px;
     z-index: 999;
     transition-property:right;
-    transition-duration:1s;
+    transition-duration:0.9s;
     cursor: pointer;
     >img {
       width: 30px;
@@ -74,21 +106,24 @@
   box-sizing: border-box;
 .nav-menu{
   .navbar-header-1 {
+    display:none;
     margin-right: 0;
     margin-left: 15px;
     a {outline: none;}
     .navbar-logo {
       height: 50px;
-      color: #777;}
+      color: #777;
+    img{width:100px;}
+    }
   }
   position: fixed;
-  right: -300px;
+  right: -230px;
   top: 0;
-  padding-top: 50px;
+  padding-top: 79px;
   padding-left:0;
-  background: #acc4eb;
+  background: $color-3;
   bottom: 0;
-  width: 300px;
+  width: 230px;
   height: 100%;
   z-index: 99;
   transition-property: right;
@@ -133,12 +168,18 @@
 
 
 
+@media (min-width:992px) and (max-width:1200px) {
+.cssmenu {font-size:16px;}
+}
 
-
-@media (min-width: 990px){
+@media (min-width: 992px){
   .menu-btn-close {display:none;}
   .menu-btn {display:none;}
+  .nav-background {display:none;}
   .navbar-main-1 {
+    position:fixed;
+    top:0;
+    width:100%;
     border-radius: 0;
     border: none;
     margin-bottom: 0;
@@ -147,6 +188,7 @@
     font-family: $font-2;
     font-size: 22px;
     background-color: #f8f8f8;
+    z-index: 101;
     .cssmenu {
       display: block!important;
       height: auto!important;
@@ -164,6 +206,7 @@
         margin-bottom: 0;
         list-style: none;
         margin-right: -15px;
+        width:100%;
         >li {
           float: left;
           position: relative;
@@ -186,16 +229,11 @@
     }
 
     .navbar-header-1 {
-      min-height: 85px;
       margin-right: 25px;
-      margin-left: 0;
       float: left;
       a {outline: none;}
       .navbar-logo {
         width:70%;
-        margin-left: -15px;
-        height: 50px;
-        padding: 15px 15px;
         font-size: 18px;
         line-height: 20px;
         color: #777;}
@@ -204,13 +242,13 @@
     .change-lang {
       &.eng {
         position: absolute;
-        bottom: -5px;
-        left: 1px;
+        //bottom: -5px;
+        //left: 1px;
       }
       &.uk {
         position: absolute;
-        top: -5px;
-        left: 22px;
+        bottom: 10px;
+        left: -5px;
       }
       &.active {
         z-index:10;
@@ -220,3 +258,9 @@
   }
 }
 
+@media (min-width: 1400px){
+  .nav-menu {width:90%;}
+}
+@media (min-width: 1745px){
+  .nav-menu {width:80%;}
+}

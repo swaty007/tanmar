@@ -8,7 +8,8 @@ html body .main-screen {
 
 @media  (min-width: 990px) {
   html body .main-screen {
-    height: calc(100vh - 85px);
+    height: calc(100vh - 94px);
+    margin-top:94px;
     //background-size: contain;
   }
 }

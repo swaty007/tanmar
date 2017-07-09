@@ -2,7 +2,7 @@
   width:90%;
   margin-left: 5%;
   .accordion-item {
-    min-height: 80px;
+    //min-height: 80px;
     &.active {
       .hide-text {
         max-height:57vh;
@@ -62,11 +62,11 @@
       min-height: 80px;
       box-shadow: inset 0 0 20px 3px #091f50;
       .accordion-market {
-        width: 50px;
-        height: 52px;
+        width: 43px;
+        height: 45px;
         position: absolute;
         padding: 0;
-        top: 13px;
+        top: 17px;
         right: 7px;
         outline: 0;
 
@@ -98,10 +98,10 @@
         text-align: left;
         display: inline-block;
         margin-bottom: 0;
-        margin-top: 25px;
+        margin-top: 21px;
         margin-left: 12px;
         max-width: 80%;
-        font-size:25px;
+        font-size:23px;
       }
     }
     //&:last-child{border-bottom:1px solid #cbcbcb}
@@ -110,15 +110,18 @@
 @media  (min-width: 990px) {
   html body .accordion {
     width: 35%;
-    height: 80px;
     position:absolute;
-    top:20vh;
+    top:15vh;
     left:15%;}
   .accordion .accordion-item .accordion-block .show-text {
     font-size: 34px;
     margin-left: 30px;
     max-width: 90%;
   }
+  .accordion .accordion-item .accordion-block {
+    min-width:500px;
+  }
+  .accordion .accordion-item .hide-text {min-width: 500px;}
   .accordion .accordion-item .accordion-block .accordion-market {
     width: 60px;
     height: 62px;

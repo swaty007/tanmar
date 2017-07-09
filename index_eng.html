@@ -26,31 +26,42 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-main">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
+<nav class="navbar-main-1" id="navbar-main-1">
+    <div id="menu-btn-close" class="menu-btn-close">
+        <img src="img/close-btn.png" alt="">
+    </div>
+
+    <div class="nav-background">
+        <div class="navbar-header-2" id="navbar-header-2">
+            <a class="navbar-logo" href="#">
                 <img alt="Brand" src="img/logo.png">
                 <p>marine  services</p>
             </a>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+        <div id="menu-btn" class="menu-btn">
+            <img src="img/menu-icon.png" alt="">
+            <span class="menu-text">Меню</span>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <div class="cssmenu" id="cssmenu">
+            <ul class="nav-menu">
+                <li><div class="navbar-header-1">
+                    <a class="navbar-logo" href="#">
+                        <img alt="Brand" src="img/logo.png">
+                        <p>marine  services</p>
+                    </a>
+                </div></li>
                 <li><a class="nav-links" href="#main-screen">ABOUT COMPANY</a></li>
                 <li><a class="nav-links" href="#shipowner">TO SHIPOWNERS</a></li>
                 <li><a class="nav-links" href="#image-slide">application form</a></li>
                 <li><a class="nav-links" href="#footer">contacts</a></li>
                 <li>
-                    <a class="nav-links" href="/index_eng.html">
+                    <a class="nav-links lang-link" href="index_eng.html">
                         <img class="change-lang eng active" alt ="" src="img/lang_eng.png">
                     </a>
-                    <a class="nav-links" href="/index.html">
+                    <a class="nav-links lang-link" href="index.html">
                         <img class="change-lang uk" alt ="" src="img/lang_uk.png">
                     </a>
                 </li>
@@ -58,6 +69,8 @@
         </div>
     </div>
 </nav>
+
+
 
 <section class="main-screen" id="main-screen">
     <div class="contaier">
@@ -170,7 +183,7 @@
 
 <section class="image-slide" id="image-slide">
 
-    <button type="button" class="btn btn-download-sea btn-primary">Application form</button>
+    <button type="button" class="btn btn-download-sea">Application form</button>
 
     <div id="mycarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
