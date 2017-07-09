@@ -3,10 +3,12 @@
   font-family: $font-2;
   font-size: 18px;
   .footer-column {
+    text-align: center;
+    padding:10px;
     &.map {
       height: 230px;
     }
-    >img {height:100%}
+    >img {width:100%;}
   }
 }
 
@@ -14,5 +16,6 @@
 
 @media  (min-width: 990px) {
   .footer .footer-column {
-    min-height: 230px;}
+    min-height: 230px;
+  >img{height:100%;}}
 }

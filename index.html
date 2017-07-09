@@ -26,31 +26,33 @@
 </head>
 <body>
 
-<nav class="navbar navbar-default navbar-main">
+<nav class="navbar-main-1" id="navbar-main-1">
+    <div id="menu-btn-close" class="menu-btn-close">
+        <img src="img/close-btn.png" alt="">
+    </div>
+    <div id="menu-btn" class="menu-btn">
+        <img src="img/menu-icon.png" alt="">
+        <span class="menu-text">Меню</span>
+    </div>
     <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">
-                <img alt="Brand" src="img/logo.png">
-                <p>marine  services</p>
-            </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="nav-links" href="#">О компании</a></li>
-                <li><a class="nav-links" href="#">Судовладельцам</a></li>
-                <li><a class="nav-links" href="#">Анкета для моряка</a></li>
-                <li><a class="nav-links" href="#">Контакты</a></li>
+
+        <div class="cssmenu" id="cssmenu">
+            <ul class="nav-menu">
+                <li><div class="navbar-header-1">
+                    <a class="navbar-logo" href="#">
+                        <img alt="Brand" src="img/logo.png">
+                        <p>marine  services</p>
+                    </a>
+                </div></li>
+                <li><a class="nav-links" href="#main-screen">О компании</a></li>
+                <li><a class="nav-links" href="#shipowner">Судовладельцам</a></li>
+                <li><a class="nav-links" href="#image-slide">Анкета для моряка</a></li>
+                <li><a class="nav-links" href="#footer">Контакты</a></li>
                 <li>
-                    <a class="nav-links" href="/index_eng.html">
+                    <a class="nav-links lang-link" href="/index_eng.html">
                         <img class="change-lang eng" alt ="" src="img/lang_eng.png">
                     </a>
-                    <a class="nav-links" href="/index.html">
+                    <a class="nav-links lang-link" href="/index.html">
                         <img class="change-lang uk active" alt ="" src="img/lang_uk.png">
                     </a>
                 </li>
@@ -59,7 +61,7 @@
     </div>
 </nav>
 
-<section class="main-screen">
+<section class="main-screen" id="main-screen">
     <div class="contaier">
 
         <div class="accordion">
@@ -96,7 +98,7 @@
     </div>
 </section>
 
-<section class="shipowner">
+<section class="shipowner" id="shipowner">
     <div class="contaier">
 
         <div class="accordion">
@@ -171,7 +173,7 @@
     </div>
 </section>
 
-<section class="image-slide">
+<section class="image-slide" id="image-slide">
 
     <button type="button" class="btn btn-download-sea btn-primary">Скачать анкету моряка</button>
 
@@ -190,37 +192,37 @@
             <div class="item">
                 <img src="img/image_1.png" data-color="lightblue" alt="First Image">
                 <div class="carousel-caption">
-                    <h3>First Image</h3>
+
                 </div>
             </div>
             <div class="item">
                 <img src="img/image_2.png" data-color="firebrick" alt="Second Image">
                 <div class="carousel-caption">
-                    <h3>Second Image</h3>
+
                 </div>
             </div>
             <div class="item">
                 <img src="img/image_3.png" data-color="violet" alt="Third Image">
                 <div class="carousel-caption">
-                    <h3>Third Image</h3>
+
                 </div>
             </div>
             <div class="item">
                 <img src="img/image_4.png" data-color="lightgreen" alt="Fourth Image">
                 <div class="carousel-caption">
-                    <h3>Fourth Image</h3>
+
                 </div>
             </div>
             <div class="item">
                 <img src="img/image_5.png" data-color="tomato" alt="Fifth Image">
                 <div class="carousel-caption">
-                    <h3>Fifth Image</h3>
+
                 </div>
             </div>
             <div class="item">
                 <img src="img/image_6.png" data-color="tomato" alt="Fifth Image">
                 <div class="carousel-caption">
-                    <h3>Six Image</h3>
+
                 </div>
             </div>
         </div>
@@ -237,8 +239,8 @@
     </div>
 </section>
 
-<section class="footer">
-    <div class="container">
+<section class="footer" id="footer">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
                 <div class="footer-column">
