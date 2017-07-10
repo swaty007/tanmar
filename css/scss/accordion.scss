@@ -12,7 +12,12 @@
     .hide-text {
       overflow:auto;
       max-height: 0;
-      //transition: max-height 350ms ease-in-out;
+
+      -o-transition: max-height 0.3s linear;
+      -ms-transition: max-height 0.3s linear;
+      -moz-transition: max-height 0.3s linear;
+      -webkit-transition: max-height 0.3s linear;
+      transition: max-height 300ms ease-in-out;
       text-align: left;
       background-color: $color-1;
       font-family: $font-2;
