@@ -74,6 +74,9 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 @media (min-width:990px){.footer .footer-column{min-height:230px}
 .footer .footer-column>img{height:100%}
 }
+@media (max-width:990px){.footer .footer-column{position:relative}
+.footer .footer-column>img{position:absolute;bottom:0;left:0}
+}
 .accordion{width:90%;margin-left:5%}
 .accordion .accordion-item.active .hide-text{max-height:57vh;padding:10px 15px}
 .accordion .accordion-item .hide-text{overflow:auto;max-height:0;-o-transition:max-height .3s linear;-ms-transition:max-height .3s linear;-moz-transition:max-height .3s linear;-webkit-transition:max-height .3s linear;transition:max-height .3s ease-in-out;text-align:left;background-color:#036;font-family:Akrobat;font-size:20px;opacity:.8;color:#fff}
