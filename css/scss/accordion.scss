@@ -62,12 +62,12 @@
       min-height: 75px;
       box-shadow: inset 0 0 20px 3px #091f50;
       .accordion-market {
-        width: 43px;
-        height: 45px;
+        width: 39px;
+        height: 39px;
         position: absolute;
         padding: 0;
-        top: 15px;
-        right: 11px;
+        top: 16px;
+        right: 2px;
         outline: 0;
 
         -o-transition: transform 0.3s linear;
@@ -101,7 +101,7 @@
         margin-top: 21px;
         margin-left: 12px;
         max-width: 80%;
-        font-size:23px;
+        font-size:21px;
       }
     }
     //&:last-child{border-bottom:1px solid #cbcbcb}
