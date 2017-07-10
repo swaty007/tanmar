@@ -32,15 +32,15 @@ html body{font-size:16px}
 @media (min-width:992px) and (max-width:1200px){.cssmenu{font-size:16px}
 }
 @media (min-width:992px){.menu-btn,.menu-btn-close,.nav-background{display:none}
-.navbar-main-1{position:fixed;top:0;width:100%;border-radius:0;border:none;margin-bottom:0;text-align:center;min-height:85px;font-family:Akrobat;font-size:22px;background-color:#f8f8f8;z-index:101}
+.navbar-main-1{height:90px;position:fixed;top:0;width:100%;border-radius:0;border:none;margin-bottom:0;text-align:center;min-height:85px;font-family:Akrobat;font-size:22px;background-color:#f8f8f8;z-index:101}
 .navbar-main-1 .cssmenu{display:block!important;padding-bottom:0;width:100%;-webkit-box-shadow:none;box-shadow:none;margin-top:20px}
 .navbar-main-1 .cssmenu .nav-menu{float:right;padding-left:0;margin-bottom:0;list-style:none;width:70%}
 .navbar-main-1 .cssmenu .nav-menu>li{float:left;position:relative;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 .navbar-main-1 .cssmenu .nav-menu>li>a{color:#777;line-height:20px;position:relative;display:block;padding:10px 15px;text-decoration:none}
 .navbar-main-1 .navbar-header-1{margin-right:25px;float:left;width:20%}
-.navbar-main-1 .navbar-header-1 a{outline:0}
+.navbar-main-1 .navbar-header-1 a{outline:0;text-decoration:none}
+.navbar-main-1 .navbar-header-1 a:hover{text-decoration:none}
 .navbar-main-1 .navbar-header-1 .navbar-logo{width:70%;font-size:18px;line-height:20px;color:#777}
-.navbar-main-1 .navbar-header-1 .navbar-logo:hover{text-decoration:none}
 .navbar-main-1 .nav-links{text-transform:uppercase}
 .navbar-main-1 .change-lang.eng{position:absolute}
 .navbar-main-1 .change-lang.uk{position:absolute;bottom:10px;left:-5px}
@@ -48,17 +48,17 @@ html body{font-size:16px}
 }
 .image-slide,html body .shipowner>div{position:relative}
 html body .main-screen{background:url(../img/layer_1.png),50% 50%;background-size:cover;height:80vh}
-@media (min-width:990px){html body .main-screen{height:calc(100vh - 94px);margin-top:94px}
+@media (min-width:990px){html body .main-screen{height:calc(100vh - 90px);margin-top:90px}
 html body .shipowner{height:100vh}
 html body .shipowner .accordion>h2{font-size:60px}
 html body .shipowner .accordion{top:0}
 }
 html body .shipowner{background:url(../img/layer_2.png),50% 50%;background-size:cover;height:100vh}
 html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT Lakes Condensed";font-weight:700;padding:20px 0;margin:0}
-.image-slide .btn-download-sea{position:absolute;margin-top:20vh;width:90%;margin-left:5%;height:75px;z-index:10;font-size:150%;font-weight:700;outline:0;font-family:"TT Lakes Condensed";color:#fff;background-color:#036;box-shadow:inset 0 0 20px 3px #091f50;border-radius:0}
+.image-slide .btn-download-sea{position:absolute;margin-top:10vh;width:90%;margin-left:1%;height:75px;z-index:10;font-size:150%;font-weight:700;outline:0;font-family:"TT Lakes Condensed";color:#fff;background-color:#036;box-shadow:inset 0 0 20px 3px #091f50;border-radius:0}
 .image-slide .btn-download-sea:hover{background-color:#036}
 .image-slide .full-screen{background-size:cover;background-position:center;background-repeat:no-repeat}
-.image-slide .carousel-indicators{bottom:120px;width:70%;margin:0;left:30%}
+.image-slide .carousel-indicators{bottom:30px;width:70%;margin:0;left:30%}
 .image-slide .carousel-indicators li{border-radius:0;width:27px;height:25px;background-color:#ececec}
 .image-slide .carousel-indicators .active{background-color:#036;width:27px;height:27px}
 @media (min-width:990px){html body .image-slide{height:100vh}

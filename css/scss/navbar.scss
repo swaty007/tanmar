@@ -177,6 +177,7 @@
   .menu-btn {display:none;}
   .nav-background {display:none;}
   .navbar-main-1 {
+    height:90px;
     position:fixed;
     top:0;
     width:100%;
@@ -227,15 +228,17 @@
       margin-right: 25px;
       float: left;
       width: 20%;
-      a {outline: none;}
+      a {outline: none;
+        text-decoration: none;
+        &:hover {
+        text-decoration: none;
+      }}
       .navbar-logo {
         width:70%;
         font-size: 18px;
         line-height: 20px;
         color: #777;
-      &:hover {
-        text-decoration: none;
-      }
+
       }
     }
     .nav-links{text-transform: uppercase;}
