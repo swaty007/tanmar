@@ -19,3 +19,14 @@
     min-height: 230px;
   >img{height:100%;}}
 }
+
+@media  (max-width: 990px) {
+  .footer .footer-column {
+    position: relative;
+    >img{
+      position:absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
