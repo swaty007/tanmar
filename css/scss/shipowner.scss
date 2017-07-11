@@ -5,6 +5,7 @@ html body .shipowner {
   height: 100vh;
 >div {position: relative;} //для акордиона
   .accordion {
+    padding-top:20px;
     >h2 {
       text-align: center;
       color: $color-1;
@@ -19,4 +20,10 @@ html body .shipowner {
   html body .shipowner {height: 100vh;}
   html body .shipowner .accordion>h2 {font-size: 60px;}
   html body .shipowner .accordion {top:0;}
+}
+
+@media  (max-width: 990px) {
+  .shipowner .accordion .accordion-item.active .hide-text {
+    max-height: 50vh;
+  }
 }
