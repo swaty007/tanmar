@@ -1,9 +1,10 @@
 @media (max-width: 992px){
   .navbar-main-1 {height:80px;}
+  .navbar-header-1 {display:none;}
   .change-lang.active {
     border:4px solid $color-1;
   }
-  .main-screen .accordion {padding-top:10px;}
+  .main-screen .accordion {padding-top:25px;}
   .nav-background {
     .navbar-header-2 {
       transition-property:right;
