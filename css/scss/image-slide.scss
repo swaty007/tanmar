@@ -2,7 +2,7 @@
   position: relative;
   .btn-download-sea {
     position: absolute;
-    margin-top:10vh;
+    margin-top:65vh;
     width: 85%;
     margin-left: 5%;
     height: 75px;
@@ -16,8 +16,10 @@
     background-color: $color-1;
     box-shadow: inset 0 0 20px 3px #091f50;
     border-radius:0;
+    outline: none;
     &:hover {
-      background-color: $color-1;
+      outline: none;
+      background-color: $color-3;
     }
   }
 
@@ -30,6 +32,9 @@
 //    border-top-right-radius: 10px;
 //  }
 
+  .carousel-inner {
+    height: calc(100vh - 80px);
+  }
   .full-screen {
     background-size: cover;
     background-position: center;
@@ -37,6 +42,7 @@
   }
 
   .carousel-indicators {
+    display:none;
     bottom: 30px;
     width:70%;
     margin:0;
@@ -56,12 +62,12 @@
   //carousel finish
 }
 @media  (min-width: 990px) {
-  html body .image-slide {height: 100vh;}
+  //html body .image-slide {height: 100vh;}
   .image-slide .btn-download-sea {
-    margin-top:10vh;
+    margin-top:35vh;
     width: 40%;
     min-width: 500px;
-    maegin-left: 5%;
+    margin-left: 5%;
   }
   .image-slide .carousel-indicators {
     bottom: 85px;
