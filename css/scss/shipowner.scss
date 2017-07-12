@@ -2,7 +2,7 @@ html body .shipowner {
   background: url("../img/layer_2.png"), 50% 50%;
   //background-size: contain;
   background-size: cover;
-  height: 100vh;
+  height: calc(100vh - 80px);
 >div {position: relative;} //для акордиона
   .accordion {
     padding-top:20px;
@@ -23,6 +23,9 @@ html body .shipowner {
 }
 
 @media  (max-width: 990px) {
+  html body .shipowner {
+    background-position: 70% 0%;
+  }
   .shipowner .accordion .accordion-item.active .hide-text {
     max-height: 50vh;
   }
