@@ -53,18 +53,19 @@ html body{font-size:16px}
 .image-slide,html body .shipowner>div{position:relative}
 html body .main-screen{background:url(../img/layer_1.png),50% 50%;background-size:cover;height:80vh}
 @media (min-width:990px){html body .main-screen{height:calc(100vh - 90px);margin-top:90px}
-}
-@media (max-width:990px){html body .main-screen{background-position:72% 0}
-}
-html body .shipowner{background:url(../img/layer_2.png),50% 50%;background-size:cover;height:calc(100vh - 80px)}
-html body .shipowner .accordion{padding-top:20px}
-html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT Lakes Condensed";font-weight:700;padding:20px 0;margin:0}
-@media (min-width:990px){html body .shipowner{height:100vh}
+html body .shipowner{height:100vh}
 html body .shipowner .accordion>h2{font-size:60px}
 html body .shipowner .accordion{top:0}
 }
+@media (max-width:990px){html body .main-screen{background-position:72% 0}
+}
+html body .shipowner{background:url(../img/layer_2.png),50% 50%;background-size:cover;height:100vh}
+html body .shipowner .accordion{padding-top:20px}
+html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT Lakes Condensed";font-weight:700;padding:20px 0;margin:0}
 @media (max-width:990px){html body .shipowner{background-position:70% 0}
 .shipowner .accordion .accordion-item.active .hide-text{max-height:50vh}
+}
+@media (max-width:340px){.accordion .accordion-item .accordion-block .show-text{font-size:20px}
 }
 .image-slide .btn-download-sea{position:absolute;margin-top:65vh;width:85%;margin-left:5%;height:75px;z-index:10;font-size:150%;font-weight:700;font-family:"TT Lakes Condensed";color:#fff;background-color:#036;box-shadow:inset 0 0 20px 3px #091f50;border-radius:0;outline:0}
 .image-slide .btn-download-sea:hover{outline:0;background-color:#091f50}
