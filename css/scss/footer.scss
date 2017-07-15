@@ -1,14 +1,20 @@
 .footer {
   background: url(../img/footer_img.png),50% 50%;
-  background-size: auto 100%;
+  background-size: auto 85%;
   background-color: #ececec;
-  background-position: 50% 0;
+  background-position: 50% 100%;
   background-repeat: no-repeat;
   font-family: $font-2;
   font-size: 18px;
   .footer-column {
     text-align: center;
     padding:10px;
+    color: #003366;
+    font-weight: 600;
+    h4 {
+      font-weight: 600;
+      color: #003366;
+    }
     &.map {
       height: 230px;
     }
@@ -30,7 +36,6 @@
     .imgfooter {
       background: url(../img/footer_img.png),50% 50%;
       background-size: 100%;
-      background-color: #ececec;
       background-repeat: no-repeat;
       background-position: bottom;
     }
