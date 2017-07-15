@@ -65,29 +65,28 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 @media (max-width:990px){html body .shipowner{background-position:70% 0}
 .shipowner .accordion .accordion-item.active .hide-text{max-height:50vh}
 }
-@media (max-width:340px){.accordion .accordion-item .accordion-block .show-text{font-size:20px}
-}
-.image-slide .btn-download-sea{position:absolute;margin-top:65vh;width:85%;margin-left:5%;height:75px;z-index:10;font-size:150%;font-weight:700;font-family:"TT Lakes Condensed";color:#fff;background-color:#036;box-shadow:inset 0 0 20px 3px #091f50;border-radius:0;outline:0}
+.image-slide .btn-download-sea{position:absolute;margin-top:60vh;width:85%;margin-left:5%;height:75px;z-index:10;font-size:150%;font-weight:700;font-family:"TT Lakes Condensed";color:#fff;background-color:#036;box-shadow:inset 0 0 20px 3px #091f50;border-radius:0;outline:0}
 .image-slide .btn-download-sea:hover{outline:0;background-color:#091f50}
 .image-slide .carousel-inner{height:calc(100vh - 80px)}
 .image-slide .full-screen{background-size:cover;background-position:center;background-repeat:no-repeat}
 .image-slide .carousel-indicators{display:none;bottom:30px;width:70%;margin:0;left:30%}
 .image-slide .carousel-indicators li{border-radius:0;width:27px;height:25px;background-color:#ececec}
 .image-slide .carousel-indicators .active{background-color:#036;width:27px;height:27px}
-@media (min-width:990px){.image-slide .btn-download-sea{margin-top:35vh;width:40%;min-width:500px;margin-left:5%}
+@media (min-width:990px){.image-slide .btn-download-sea{margin-top:57vh;width:40%;min-width:500px;margin-left:5%}
 .image-slide .carousel-indicators{bottom:85px;width:30%;margin:0;left:60%}
 .image-slide .carousel-indicators li{border-radius:0;width:33px;height:30px;background-color:#ececec}
 .image-slide .carousel-indicators .active{background-color:#036;width:33px;height:32px}
 }
+@media (max-width:375px){.image-slide .btn-download-sea{margin-left:1%}
+}
 .footer{background-color:#ececec;font-family:Akrobat;font-size:18px}
 .footer .footer-column{text-align:center;padding:10px}
 .footer .footer-column.map{height:230px}
-.footer .footer-column>img{width:100%}
 @media (min-width:990px){.footer .footer-column{min-height:230px}
 .footer .footer-column>img{height:100%}
 }
 @media (max-width:990px){.footer .footer-column{position:relative}
-.footer .footer-column>img{position:absolute;bottom:0;left:0}
+.footer .footer-column>img{position:absolute;bottom:0;left:0;width:100%}
 }
 .accordion{width:90%;margin-left:5%}
 .accordion .accordion-item.active .hide-text{max-height:57vh;padding:10px 15px}
@@ -110,4 +109,6 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 .accordion .accordion-item .accordion-block .show-text{font-size:34px;margin-left:30px;max-width:90%}
 .accordion .accordion-item .accordion-block,.accordion .accordion-item .hide-text{min-width:500px}
 .accordion .accordion-item .accordion-block .accordion-market{width:58px;height:58px;position:absolute;padding:0;top:8px;right:14px;outline:0}
+}
+@media (max-width:340px){.accordion .accordion-item .accordion-block .show-text{font-size:19px}
 }
