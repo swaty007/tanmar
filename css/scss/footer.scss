@@ -26,8 +26,14 @@
 
 @media  (max-width: 990px) {
   .footer {
-    background-size: 100% 30%;
-    background-position: 50% 100px;
+   background: #ececec;
+    .imgfooter {
+      background: url(../img/footer_img.png),50% 50%;
+      background-size: auto 100%;
+      background-color: #ececec;
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
   }
   .footer .footer-column {
     position: relative;
