@@ -2,7 +2,7 @@
   position: relative;
   .btn-download-sea {
     position: absolute;
-    margin-top:65vh;
+    margin-top:60vh;
     width: 85%;
     margin-left: 5%;
     height: 75px;
@@ -64,7 +64,7 @@
 @media  (min-width: 990px) {
   //html body .image-slide {height: 100vh;}
   .image-slide .btn-download-sea {
-    margin-top:35vh;
+    margin-top:57vh;
     width: 40%;
     min-width: 500px;
     margin-left: 5%;
@@ -85,5 +85,10 @@
       width: 33px;
       height: 32px;
     }
+  }
+}
+@media  (max-width: 375px)  {
+  .image-slide .btn-download-sea {
+    margin-left: 1%;
   }
 }
