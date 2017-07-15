@@ -1,7 +1,9 @@
 .footer {
   background: url(../img/footer_img.png),50% 50%;
-  background-size: cover;
+  background-size: auto 100%;
   background-color: #ececec;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
   font-family: $font-2;
   font-size: 18px;
   .footer-column {
@@ -23,6 +25,10 @@
 }
 
 @media  (max-width: 990px) {
+  .footer {
+    background-size: 100% 30%;
+    background-position: 50% 100px;
+  }
   .footer .footer-column {
     position: relative;
     >img{

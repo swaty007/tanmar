@@ -80,10 +80,11 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 }
 @media (max-width:375px){.image-slide .btn-download-sea{margin-left:1%}
 }
-.footer{background:url(../img/footer_img.png),50% 50% #ececec;background-size:cover;font-family:Akrobat;font-size:18px}
+.footer{background:url(../img/footer_img.png) 50% 0 no-repeat,50% 0 no-repeat #ececec;background-size:auto 100%;font-family:Akrobat;font-size:18px}
 .footer .footer-column{text-align:center;padding:10px}
 .footer .footer-column.map{height:230px}
-@media (max-width:990px){.footer .footer-column{position:relative}
+@media (max-width:990px){.footer{background-size:100% 30%;background-position:50% 100px}
+.footer .footer-column{position:relative}
 .footer .footer-column>img{position:absolute;bottom:0;left:0;width:100%}
 }
 .accordion{width:90%;margin-left:5%}
