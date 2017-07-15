@@ -76,15 +76,13 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 .image-slide .carousel-indicators{bottom:85px;width:30%;margin:0;left:60%}
 .image-slide .carousel-indicators li{border-radius:0;width:33px;height:30px;background-color:#ececec}
 .image-slide .carousel-indicators .active{background-color:#036;width:33px;height:32px}
+.footer .footer-column{min-height:269px}
 }
 @media (max-width:375px){.image-slide .btn-download-sea{margin-left:1%}
 }
-.footer{background-color:#ececec;font-family:Akrobat;font-size:18px}
+.footer{background:url(../img/footer_img.png),50% 50% #ececec;background-size:cover;font-family:Akrobat;font-size:18px}
 .footer .footer-column{text-align:center;padding:10px}
 .footer .footer-column.map{height:230px}
-@media (min-width:990px){.footer .footer-column{min-height:230px}
-.footer .footer-column>img{height:100%}
-}
 @media (max-width:990px){.footer .footer-column{position:relative}
 .footer .footer-column>img{position:absolute;bottom:0;left:0;width:100%}
 }
