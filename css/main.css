@@ -84,7 +84,7 @@ html body .shipowner .accordion>h2{text-align:center;color:#036;font-family:"TT 
 .footer .footer-column{text-align:center;padding:10px}
 .footer .footer-column.map{height:230px}
 @media (max-width:990px){.footer{background:#ececec}
-.footer .imgfooter{background:url(../img/footer_img.png) bottom no-repeat,bottom no-repeat #ececec;background-size:auto 100%}
+.footer .imgfooter{background:url(../img/footer_img.png) bottom no-repeat,bottom no-repeat #ececec;background-size:100%}
 .footer .footer-column{position:relative}
 .footer .footer-column>img{position:absolute;bottom:0;left:0;width:100%}
 }
