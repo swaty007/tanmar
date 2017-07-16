@@ -38,6 +38,7 @@ html body{font-size:16px}
 .navbar-main-1 .cssmenu{display:block!important;padding-bottom:0;width:100%;-webkit-box-shadow:none;box-shadow:none;margin-top:20px}
 .navbar-main-1 .cssmenu .nav-menu{float:right;padding-left:0;margin-bottom:0;list-style:none;width:70%}
 .navbar-main-1 .cssmenu .nav-menu>li{float:left;position:relative;display:block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.navbar-main-1 .cssmenu .nav-menu>li:last-child{float:right}
 .navbar-main-1 .cssmenu .nav-menu>li>a{color:#777;line-height:20px;position:relative;display:block;padding:10px 15px;text-decoration:none}
 .navbar-main-1 .cssmenu .nav-menu>li>a:hover{color:#3a3a3a}
 .navbar-main-1 .navbar-header-1{margin-right:25px;float:left;width:20%}
@@ -46,6 +47,7 @@ html body{font-size:16px}
 .navbar-main-1 .navbar-header-1 .navbar-logo{width:70%;font-size:18px;line-height:20px;color:#777}
 .navbar-main-1 .navbar-header-1 .navbar-logo:hover{color:#3a3a3a}
 .navbar-main-1 .nav-links{text-transform:uppercase}
+.navbar-main-1 .change-lang{bottom:7px}
 .navbar-main-1 .change-lang.active{display:none!important}
 }
 .image-slide,html body .shipowner>div{position:relative}
