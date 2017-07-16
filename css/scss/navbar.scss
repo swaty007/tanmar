@@ -219,6 +219,7 @@
           -webkit-box-sizing: border-box;
           -moz-box-sizing: border-box;
           box-sizing: border-box;
+          &:last-child {float:right;}
           >a{
             color: #777;
             padding-top: 15px;
@@ -259,7 +260,7 @@
     }
     .nav-links{text-transform: uppercase;}
     .change-lang {
-
+      bottom: 7px;
       &.eng {
         //position: absolute;
         //bottom: -5px;
