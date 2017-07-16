@@ -1,7 +1,7 @@
 // Плавная прокрутка
 $(document).ready(function () {
 
-$('a.nav-links').bind('click.smoothscroll',function (e) {
+$('a.nav-links[href^="#"]').bind('click.smoothscroll',function (e) {
     e.preventDefault();
 
     var target = this.hash,

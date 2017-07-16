@@ -6,7 +6,7 @@ html body{font-size:16px}
 .cssmenu .nav-menu>li>a.lang-link,.menu-btn{text-align:center}
 .navbar-main-1{height:80px}
 .navbar-header-1{display:none}
-.change-lang.active{z-index:10}
+.change-lang.active{display:none!important}
 .main-screen .accordion{padding-top:25px}
 .nav-background{position:fixed;top:0;display:block;width:100%;background-color:#f8f8f8;height:80px;z-index:99}
 .menu-btn,.menu-btn-close{position:fixed;top:10px;z-index:999;transition-property:right;cursor:pointer}
@@ -46,9 +46,7 @@ html body{font-size:16px}
 .navbar-main-1 .navbar-header-1 .navbar-logo{width:70%;font-size:18px;line-height:20px;color:#777}
 .navbar-main-1 .navbar-header-1 .navbar-logo:hover{color:#3a3a3a}
 .navbar-main-1 .nav-links{text-transform:uppercase}
-.navbar-main-1 .change-lang.eng{position:absolute}
-.navbar-main-1 .change-lang.uk{position:absolute;bottom:10px;left:-5px}
-.navbar-main-1 .change-lang.active{z-index:10}
+.navbar-main-1 .change-lang.active{display:none!important}
 }
 .image-slide,html body .shipowner>div{position:relative}
 html body .main-screen{background:url(../img/layer_1.png),50% 50%;background-size:cover;height:80vh}
