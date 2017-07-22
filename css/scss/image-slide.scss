@@ -1,5 +1,82 @@
+//.image-slide {
+//  h1,h2{
+//    display: none;}
+//  position: relative;
+//  .btn-download-sea {
+//    position: absolute;
+//    margin-top:60vh;
+//    width: 85%;
+//    margin-left: 5%;
+//    height: 75px;
+//    z-index: 10;
+//    //opacity: 0.8;
+//    font-size: 150%;
+//    font-weight: 700;
+//    outline: none;
+//    font-family: $font-1;
+//    color:#ffffff;
+//    background-color: $color-1;
+//    box-shadow: inset 0 0 20px 3px #091f50;
+//    border-radius:0;
+//    outline: none;
+//    line-height: 60px;
+//    &:hover {
+//      outline: none;
+//      background-color: $color-3;
+//    }
+//  }
+//
+////carousel
+////  h3 {
+////    display: inline-block;
+////    padding: 10px;
+////    background: #B9121B;
+////    border-top-left-radius: 10px;
+////    border-top-right-radius: 10px;
+////  }
+//
+//
+//  //carousel finish
+//}
+//@media  (min-width: 990px) {
+//  //html body .image-slide {height: 100vh;}
+//  .image-slide .btn-download-sea {
+//    margin-top:57vh;
+//    width: 40%;
+//    min-width: 500px;
+//    margin-left: 5%;
+//    font-size: 34px;
+//  }
+//  .image-slide .carousel-indicators {
+//    bottom: 85px;
+//    width:30%;
+//    margin:0;
+//    left:60%;
+//    li {
+//      border-radius: 0px;
+//      width: 33px;
+//      height: 30px;
+//      background-color: #ececec;
+//    }
+//    .active {
+//      background-color: $color-1;
+//      width: 33px;
+//      height: 32px;
+//    }
+//  }
+//}
+//@media  (max-width: 375px)  {
+//  .image-slide .btn-download-sea {
+//    margin-left: 1%;
+//  }
+//}
+
+
+
 .image-slide {
   position: relative;
+  h1,h2{
+        display: none;}
   .btn-download-sea {
     position: absolute;
     margin-top:60vh;
@@ -16,21 +93,21 @@
     background-color: $color-1;
     box-shadow: inset 0 0 20px 3px #091f50;
     border-radius:0;
-    outline: none;
+    line-height: 60px;
     &:hover {
       outline: none;
       background-color: $color-3;
     }
   }
 
-//carousel
-//  h3 {
-//    display: inline-block;
-//    padding: 10px;
-//    background: #B9121B;
-//    border-top-left-radius: 10px;
-//    border-top-right-radius: 10px;
-//  }
+  //carousel
+  //  h3 {
+  //    display: inline-block;
+  //    padding: 10px;
+  //    background: #B9121B;
+  //    border-top-left-radius: 10px;
+  //    border-top-right-radius: 10px;
+  //  }
 
   .carousel-inner {
     height: calc(100vh - 80px);
@@ -67,6 +144,7 @@
     margin-top:57vh;
     width: 40%;
     min-width: 500px;
+    font-size:34px;
     margin-left: 5%;
   }
   .image-slide .carousel-indicators {

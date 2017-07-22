@@ -25,7 +25,7 @@ $('a.nav-links[href^="#"]').bind('click.smoothscroll',function (e) {
 
     // button = nav.getElementsByTagName( 'div' )[0];
     button = document.getElementById( 'menu-btn' );
-    header = document.getElementById( 'navbar-header-2' );
+    // header = document.getElementById( 'navbar-header-2' );
     buttonclose = document.getElementById ( 'menu-btn-close');
     menu   = nav.getElementsByTagName( 'ul' )[0];
     if ( ! button ) {
@@ -42,12 +42,12 @@ $('a.nav-links[href^="#"]').bind('click.smoothscroll',function (e) {
             button.className = button.className.replace( ' toggled-on', '' );
             buttonclose.className = buttonclose.className.replace( ' toggled-on', '' );
             menu.className = menu.className.replace( ' toggled-on', '' );
-            header.className = header.className.replace( ' toggled-on', '' );
+            // header.className = header.className.replace( ' toggled-on', '' );
         } else {
             button.className += ' toggled-on';
             buttonclose.className += ' toggled-on';
             menu.className += ' toggled-on';
-            header.className += ' toggled-on';
+            // header.className += ' toggled-on';
         }
     };
     button.onclick = function() {
@@ -59,12 +59,12 @@ $('a.nav-links[href^="#"]').bind('click.smoothscroll',function (e) {
             button.className = button.className.replace( ' toggled-on', '' );
             buttonclose.className = buttonclose.className.replace( ' toggled-on', '' );
             menu.className = menu.className.replace( ' toggled-on', '' );
-            header.className = header.className.replace( ' toggled-on', '' );
+            // header.className = header.className.replace( ' toggled-on', '' );
         } else {
             button.className += ' toggled-on';
             buttonclose.className += ' toggled-on';
             menu.className += ' toggled-on';
-            header.className += ' toggled-on';
+            // header.className += ' toggled-on';
         }
     };
 } )();

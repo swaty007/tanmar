@@ -12,10 +12,10 @@
       transition-property:right;
       transition-duration:1s;
       position: fixed;
-      right:100px;
-      &.toggled-on {
-        right:335px;
-      }
+      right:40%;
+      //&.toggled-on {
+      //  right:335px;
+      //}
       margin-right: 0;
       margin-left: 20px;
       margin-top: 20px;
@@ -205,13 +205,13 @@
       width: 100%;
       -webkit-box-shadow: none;
       box-shadow: none;
-      margin-top:20px;
       .nav-menu{
         float:right;
         padding-left: 0;
         margin-bottom: 0;
         list-style: none;
         width:70%;
+        margin-top: 20px;
         >li {
           float: left;
           position: relative;
@@ -252,9 +252,11 @@
         font-size: 18px;
         line-height: 20px;
         color: #777;
+        >img {margin-top: 11px;}
         &:hover {
           color: #3a3a3a;
           //font-weight: 600;
+
         }
       }
     }

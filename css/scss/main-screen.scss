@@ -2,6 +2,11 @@ html body .main-screen {
   background: url("../img/layer_1.png"), 50% 50%;
   background-size: cover;
   height: 80vh;
+  .foto-conrainer {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
 }
 
 
